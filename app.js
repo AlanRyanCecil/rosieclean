@@ -7,7 +7,8 @@
             total = 0,
             priceDisplay = $('#priceDisplay'),
 
-    // the key names in the objects here match the id's of their respective radio button or checkbox
+    // the key names in the objects here match the id's
+    // of their respective radio button or checkbox elements
 
             prices = {
                 couch: 15,
@@ -22,7 +23,8 @@
             };
 
 
-    // the base price is hard coded in the html but if you wanted to change it this will update to that change
+    // the base price is hard coded in the html but if you wanted to change it
+    // this will update to that change
 
         priceDisplay.html('$' + basePrice);
 
