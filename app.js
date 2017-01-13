@@ -2,9 +2,9 @@
     $(function () {
 
         var basePrice = 132,
-            total = 0,
             serviceCharge = 0,
             discount = 0,
+            total = 0,
             priceDisplay = $('#priceDisplay'),
 
     // the key names in the objects here match the id's of their respective radio button or checkbox
