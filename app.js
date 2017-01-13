@@ -7,7 +7,7 @@
             discount = 0,
             priceDisplay = $('#priceDisplay'),
 
-    // the names in the objects here match the id's of their respective radio button or checkbox
+    // the key names in the objects here match the id's of their respective radio button or checkbox
 
             prices = {
                 couch: 15,
